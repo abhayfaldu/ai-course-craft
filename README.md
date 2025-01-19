@@ -1,4 +1,4 @@
-Visit **Teacher.io** here :- https://teacherrio.vercel.app
+Visit **ai-course-craft** here :- https://teacherrio.vercel.app
 
 <img width="1440" alt="Screenshot 2025-01-15 at 03 03 11" src="https://github.com/user-attachments/assets/10324967-cb11-464e-ba13-0f7eb6eef21e" />
 
@@ -40,5 +40,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ai-course-craft
-# ai-course-craft
