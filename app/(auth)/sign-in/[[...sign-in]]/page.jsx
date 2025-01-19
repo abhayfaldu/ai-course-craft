@@ -32,7 +32,7 @@ export default function Page() {
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90">
-              Teacher.io is your own course generator at home
+              AI Course Craft is your own course generator at home
             </p>
           </div>
         </section>
@@ -59,7 +59,7 @@ export default function Page() {
               </a>
 
               <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-                Welcome to Teacher.io
+                Welcome to AI Course Craft
               </h1>
 
               <p className="mt-4 leading-relaxed text-gray-500">

@@ -16,7 +16,7 @@ function AddCourse() {
           <span className="font-bold">{user?.fullName}</span>
         </h2>
         <p className="text-sm text-gray-500">
-          Create new course with Teacher.io your own personal course maker{' '}
+          Create new course with AI Course Craft your own personal course maker{' '}
         </p>
       </div>
       <Link href={'/create-course'}>
