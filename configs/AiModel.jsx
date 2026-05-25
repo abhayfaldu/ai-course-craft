@@ -1,11 +1,11 @@
 const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require('@google/generative-ai')
 
 const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY
-const model = process.env.NEXT_PUBLIC_GEMINI_MODEL
+const modelId = process.env.NEXT_PUBLIC_GEMINI_MODEL
 const genAI = new GoogleGenerativeAI(apiKey)
 
 const model = genAI.getGenerativeModel({
-  model: model,
+  model: modelId,
 })
 
 const generationConfig = {
