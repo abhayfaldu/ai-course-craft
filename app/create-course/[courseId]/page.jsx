@@ -79,7 +79,17 @@ function CourseLayout({ params }) {
 
     // Navigate to the finish page after all chapters are processed
     setLoading(false)
-    await db.update(CourseList).set({ publish: true })
+    if (course?.id && user?.primaryEmailAddress?.emailAddress) {
+      await db
+        .update(CourseList)
+        .set({ publish: true })
+        .where(
+          and(
+            eq(CourseList.id, course.id),
+            eq(CourseList.createdBy, user.primaryEmailAddress.emailAddress)
+          )
+        )
+    }
     router.replace(`/create-course/${course?.courseId}/finish`)
   }
 
